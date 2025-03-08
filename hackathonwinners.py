@@ -28,11 +28,7 @@ def upload_image():
 
 # Function to load and display the image on the canvas
 def load_image(file_path):
-<<<<<<< HEAD
-    global img, img_tk, blue_squares
-=======
     global img_tk
->>>>>>> 3397ffb (Refactor image loading to center display on canvas and adjust canvas size)
     img = Image.open(file_path)
     
     # Convert the image to something Tkinter can display
